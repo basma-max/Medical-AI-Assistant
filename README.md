@@ -1,7 +1,7 @@
 # 🩺 Assistant Médical IA
-
+Prévisualisation de l'interface
 <img src="image/Capture d'écran 2025-06-05 212046.png" width="800"/>
-*(Prévisualisation de l'interface)*
+
 
 
   ## 📌 Description du Projet
