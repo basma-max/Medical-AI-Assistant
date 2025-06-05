@@ -1,6 +1,6 @@
 # 🩺 Assistant Médical IA
 
-<img src="image/Dash1.jpg" width="800"/>
+<img src="image/cap" width="800"/>
 *(Prévisualisation de l'interface)*
 
 
@@ -13,12 +13,12 @@
 **Public Cible** : Professionnels de santé (outil d'aide au diagnostic) et particuliers (première évaluation)
 
 ## 🌟 Fonctionnalités Principales
-| Fonctionnalité | Technologie | Exemple de Sortie |
-|---------------|------------|------------------|
-| Transcription vocale | Whisper (OpenAI) | _"Patient décrit des douleurs abdominales aiguës"_ |
-| Analyse d'images | Gemini Pro Vision | _"Lésion suspecte : 80% mélanome, 20% dermatite"_ |
-| Synthèse vocale | ElevenLabs/gTTS | [Écouter un exemple](assets/response-sample.mp3) |
-| Interface utilisateur | Gradio | ![Interface](assets/interface-screenshot.png) |
+| Fonctionnalité | Technologie | 
+|---------------|------------|
+| Transcription vocale | Whisper (OpenAI) |
+| Analyse d'images | Gemini Pro Vision | 
+| Synthèse vocale | ElevenLabs/gTTS | 
+| Interface utilisateur | Gradio | 
 
 
 ## 🛠 Architecture Technique
