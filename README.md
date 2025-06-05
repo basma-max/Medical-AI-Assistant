@@ -1,6 +1,7 @@
 # 🩺 Assistant Médical IA
 
-![Demo](demo.gif) *(Prévisualisation de l'interface)*
+![Demo](![image](https://github.com/user-attachments/assets/be4e7de4-e62e-4b9b-8bbd-dc7b72a1e1af)
+) *(Prévisualisation de l'interface)*
 
 ## 📌 Fonctionnalités
 - **Analyse d'images** médicales via IA (Gemini/Llama)
