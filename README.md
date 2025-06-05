@@ -3,11 +3,44 @@
 <img src="image/Dash1.jpg" width="800"/>
 *(Prévisualisation de l'interface)*
 
-## 📌 Fonctionnalités
-- **Analyse d'images** médicales via IA (Gemini/Llama)
-- **Transcription vocale** des symptômes (Whisper/Groq)
-- **Diagnostic préliminaire** avec synthèse vocale (gTTS/ElevenLabs)
-- Interface intuitive avec **Gradio**
+
+  ## 📌 Description du Projet
+**Objectif** : Développer une solution IA permettant aux utilisateurs de :
+- Analyser des images médicales (lésions cutanées, radiographies, etc.)
+- Décrire leurs symptômes vocalement
+- Obtenir un diagnostic préliminaire avec synthèse vocale
+
+**Public Cible** : Professionnels de santé (outil d'aide au diagnostic) et particuliers (première évaluation)
+
+## 🌟 Fonctionnalités Principales
+| Fonctionnalité | Technologie | Exemple de Sortie |
+|---------------|------------|------------------|
+| Transcription vocale | Whisper (OpenAI) | _"Patient décrit des douleurs abdominales aiguës"_ |
+| Analyse d'images | Gemini Pro Vision | _"Lésion suspecte : 80% mélanome, 20% dermatite"_ |
+| Synthèse vocale | ElevenLabs/gTTS | [Écouter un exemple](assets/response-sample.mp3) |
+| Interface utilisateur | Gradio | ![Interface](assets/interface-screenshot.png) |
+
+
+## 🛠 Architecture Technique
+
+```mermaid
+graph TD
+    A[Entrée Utilisateur] -->|Audio| B(Transcription Whisper)
+    A -->|Image| C(Analyse Gemini Vision)
+    B --> D[Fusion des Données]
+    C --> D
+    D --> E{Diagnostic IA}
+    E -->|Résultat| F[Synthèse Vocale]
+    F --> G[Interface Gradio]
+    G --> H[Utilisateur]
+    
+    style A fill:#4CAF50,stroke:#388E3C
+    style B,C fill:#2196F3,stroke:#0b7dda
+    style D fill:#9C27B0,stroke:#7B1FA2
+    style E fill:#FF9800,stroke:#F57C00
+    style F fill:#607D8B,stroke:#455A64
+    style G fill:#00BCD4,stroke:#0097A7
+    style H fill:#4CAF50,stroke:#388E3C
 
 ## 🛠 Installation
 ```bash
