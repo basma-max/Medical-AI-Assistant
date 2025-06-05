@@ -1,6 +1,6 @@
 # 🩺 Assistant Médical IA
 
-<img src="image/cap" width="800"/>
+<img src="image/Capture d'écran 2025-06-05 212046.png" width="800"/>
 *(Prévisualisation de l'interface)*
 
 
@@ -21,26 +21,7 @@
 | Interface utilisateur | Gradio | 
 
 
-## 🛠 Architecture Technique
 
-```mermaid
-graph TD
-    A[Entrée Utilisateur] -->|Audio| B(Transcription Whisper)
-    A -->|Image| C(Analyse Gemini Vision)
-    B --> D[Fusion des Données]
-    C --> D
-    D --> E{Diagnostic IA}
-    E -->|Résultat| F[Synthèse Vocale]
-    F --> G[Interface Gradio]
-    G --> H[Utilisateur]
-    
-    style A fill:#4CAF50,stroke:#388E3C
-    style B,C fill:#2196F3,stroke:#0b7dda
-    style D fill:#9C27B0,stroke:#7B1FA2
-    style E fill:#FF9800,stroke:#F57C00
-    style F fill:#607D8B,stroke:#455A64
-    style G fill:#00BCD4,stroke:#0097A7
-    style H fill:#4CAF50,stroke:#388E3C
 
 ## 🛠 Installation
 ```bash
